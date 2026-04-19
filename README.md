@@ -2,10 +2,13 @@
 Prototype code for an accessible mouse using an Arduino Nano to read from 2 ultrasonic sensors (HC-SP04) and a prototype keypad, and feed output to a Raspberry Pi Pico using HID with CircuitPython to control mouse movement and left click.
 
 Hardware Setup:
+
 Connect two HC-SR04 Ultrasonic sensors and any button to an Arduino Nano. Set up the sensors to be pointing perpendicular to each other
 Wire two outputs from the Nano that correspond to the HC-SR04 sensors to two analog inputs on a Raspberry Pi Pico using an RC filter, and the digital output from the keypad button to a digital input on the Pico.
 The Pico must be connected to your PC via its built-in USB functionality
+
 *CIRCUIT DIAGRAM NOT AVAILABLE AT THIS TIME
+
 
 Software:
 
